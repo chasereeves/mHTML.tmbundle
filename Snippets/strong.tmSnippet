@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${0:${TM_SELECTED_TEXT/\A&lt;strong&gt;(.*)&lt;\/strong&gt;\z|.*/(?1:$1:&lt;strong&gt;$0&lt;\/strong&gt;)/m}}</string>
-	<key>keyEquivalent</key>
+	<string>${0:${TM_SELECTED_TEXT/\A&lt;strong&gt;(.*)&lt;\/strong&gt;\z|.*/(?1:$1:&lt;strong&gt;$0&lt;/strong&gt;)/m}}</string>	<key>keyEquivalent</key>
 	<string>@b</string>
 	<key>name</key>
 	<string>strong</string>
